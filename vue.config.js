@@ -14,11 +14,16 @@ module.exports = {
 		.set('views',resolve('/src/views'));
 	},
 	// devServer: {
+	// 	proxy: 'http://localhost:4000'
+	// }
+
+	// devServer: {
 	// 	overlay: { warnings: true, errors: true },
   //   disableHostCheck: true,
 	// 	proxy: { 
 	// 		'/api': {
-	// 			target: process.env.VUE_APP_PROXY_URL,
+	// 			// target: process.env.VUE_APP_PROXY_URL,
+	// 			target: 'http://pv.sohu.com/',
 	// 			changOrigin: true,
 	// 			secure: false,
 	// 			pathRewrite: {

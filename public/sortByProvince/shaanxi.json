@@ -1,0 +1,14 @@
+{
+	"description": "陕西省",
+	"cityList": {"安康市": "ankang"},
+	"city": {
+		"ankang": [{
+			"doctor": "刘伟（字济舟）",
+			"title": "社区医生",
+			"hospital": "汉阴县济舟堂国医门诊",
+			"address": "陕西汉阴县城关镇南区",
+			"time": "周一~周六全天",
+			"orderType": "现场挂号"
+		}]
+	}
+}

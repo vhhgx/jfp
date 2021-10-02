@@ -1,8 +1,8 @@
 {
-	"description": "上海地区",
-	"cityList": {"浦东": "pudong", "普陀": "puto", "徐汇": "xuhui", "黄埔": "huangpu", "闵行": "minhang"},
-	"province": {
-		"pudong": [
+	"description": "上海市",
+	"cityList": {"上海": "shanghai"},
+	"city": {
+		"shanghai": [
 			{
 				"doctor": "李小荣",
 				"title": "主治中医师",
@@ -27,30 +27,21 @@
 				"time": "周三14:30-18:30",
 				"orderType": "现场挂号、不预约",
 				"remark": "就诊前请查阅“李小荣经方诊疗团”微信公众号的门诊详情"
-			}
-		],
-		"puto": [
-			{
+			},{
 				"doctor": "周朝辉",
 				"title": "主治中医师",
 				"hospital": "上海市普陀区中医医院",
 				"address": "曹杨路1261号",
 				"time": "周三 8:00-16:00",
 				"orderPhone": "现场挂号、不预约"
-			}
-		],
-		"xuhui": [
-			{
+			},{
 				"doctor": "刘晓丽",
 				"title": "主治中医师", 
 				"hospital": "雷允上五行中医门诊部",
 				"address": "徐汇区中山西路1520号",
 				"time": "周六上午9:00-12:00",
 				"orderType": "现场挂号、不预约"
-			}
-		],
-		"huangpu": [
-			{
+			},{
 				"doctor": "曲俊生",
 				"title": "助理中医师",
 				"hospital": "上海济民门诊部",
@@ -64,10 +55,7 @@
 				"address": "瞿溪路987号309室",
 				"time": "周一、二、五上午，周三、四下午",
 				"orderType": "现场挂号"
-			}
-		],
-		"minhang": [
-			{
+			},{
 				"doctor": "沈婕",
 				"title": "副主任中医师",
 				"hospital": "复旦大学附属肿瘤医院闵行分院",

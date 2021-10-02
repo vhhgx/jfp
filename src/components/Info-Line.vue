@@ -1,7 +1,7 @@
 <template>
 	<div class="flex" style="line-height: 26px;">
-		<div class="flex-1" style="font-weight: 700">{{title}}</div>
-		<div class="flex-2">{{value}}</div>
+		<div class="flex-1" style="font-weight: 700; color: #002766;">{{title}}</div>
+		<div class="flex-2" style="color: #002766;">{{value}}</div>
 	</div>
 </template>
 

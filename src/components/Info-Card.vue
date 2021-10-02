@@ -1,5 +1,5 @@
 <template>
-	<div style="background-color: #e6f7ff; padding: 12px; margin-top: 20px;">
+	<div style="background-color: #F1FAFF; padding: 12px; border-radius: 6px;">
 		<InfoLine title="坐诊医院" :value="info.hospital"></InfoLine>
 		<InfoLine title="医院地址" :value="info.address"></InfoLine>
 		<InfoLine title="坐诊时间" :value="info.time"></InfoLine>

@@ -1,0 +1,110 @@
+{
+	"description": "山东省",
+	"cityList": {"烟台": "yantai", "青岛": "qingdao", "泰安": "taian", "莱芜": "laiwu", "济南": "jinan", "聊城": "liaocheng", "济宁": "jining"},
+	"city": {
+		"yantai": [{
+				"doctor": "曲丽霞 ",
+				"title": "主任中医师",
+				"hospital": "烟台中医院心病科门诊",
+				"address": "芝罘区辛庄街49号",
+				"time": "周一~周五全天",
+				"orderPhone": "现场挂号"
+		}],
+		"qingdao": [{
+			"doctor": "战为平",
+			"title": "执业中医师",
+			"sitting": [{
+				"hospital": "青岛市黄岛骨伤医院",
+				"address": "黄岛区黄河路508号",
+				"time": "周一、二、三"
+			},{
+				"hospital": "青岛莱西市蓬莱路46号",
+				"time": "周四、五",
+				"orderType": "现场挂号"
+			}]
+		},{
+			"doctor": "逄淑杰",
+			"title": "执业中医师",
+			"hospital": "青岛市黄岛区逄淑杰中医诊所",
+			"address": "隐珠街道办事处大哨头村",
+			"time": "周一~周六全天",
+			"orderPhone": "13954281117"
+		},{
+			"doctor": "刘忠森 ",
+			"title": "主治中医师",
+			"hospital": "青岛市三院中医科",
+			"address": "青岛李沧区永平路29号",
+			"time": "周六全天",
+			"orderPhone": "89076501"
+		},{
+			"doctor": "张效东",
+			"title": "主任医师",
+			"sitting": [{
+				"hospital": "青岛恒生堂大药房公司",
+				"address": "市北区威海路226号",
+				"time": "周二上午",
+				"orderType": "现场挂号、不预约"
+			},{
+				"hospital": "孟辉中医诊所",
+				"address": "青岛市哈尔滨路34号乙",
+				"time": "周六12:00~17:00",
+				"orderPhone": "0532-85615655"
+			}]
+		},{
+			"doctor": "张坤",
+			"title": "执业中医师",
+			"hospital": "平度市仁兆镇岚西卫生所",
+			"address": "岚西村中心大街西北角",
+			"time": "周二-六全天，周日上午",
+			"orderType": "现场挂号"
+		}],
+		"taian": [{
+			"doctor": "马荣波",
+			"title": "全科医师",
+			"hospital": "泰安市泰山区后七里社区卫生服务站",
+			"address": "迎胜南路贤德苑后七里社区居委会",
+			"time": "周一~周六上午",
+			"orderType": "现场挂号",
+			"orderPhone": "0538-8486679"
+		}],
+		"laiwu": [{
+			"doctor": "魏芹",
+			"title": "主治医师",
+			"hospital": "莱芜市中医医院明医馆",
+			"address": "莱芜市汶源东大街8号",
+			"time": "每周二全天",
+			"orderType": "现场挂号"
+		}],
+		"jinan": [{
+			"doctor": "李建富",
+			"title": "执业中医师",
+			"sitting": [{
+				"hospital": "济南市天桥区鸿禧诊所",
+				"address": "长途汽车总站西300米",
+				"time": "周日上午",
+				"orderType": "现场挂号、不预约"
+			},{
+				"hospital": "舟桥社区卫生服务站",
+				"address": "齐河县齐鲁大街西首国税花园沿街楼下",
+				"time": "周六上午",
+				"orderType": "现场挂号、不预约"
+			}]
+		}],
+		"liaocheng": [{
+			"doctor": "王成果",
+			"title": "副主任中医师",
+			"hospital": "山东省茌平县中医医院",
+			"address": "茌平县城新政路268号",
+			"time": "周一、三、五全天",
+			"orderType": "现场挂号"
+		}],
+		"jining": [{
+			"doctor": "宋恩宏",
+			"title": "主治医师",
+			"hospital": "山东省兖州恩宏诊所",
+			"address": "济宁市北顺城街92号",
+			"time": "周二到周六上、下午",
+			"orderType": "微信15562278818预约、现场挂号"
+		}]
+	}
+}

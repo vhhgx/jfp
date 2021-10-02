@@ -1,7 +1,7 @@
 {
   "description": "江苏省",
-  "townlist": {"南京": "nanjing", "无锡": "wuxi", "昆山": "kunshan", "苏州": "suzhou", "常州": "changzhou", "镇江": "zhenjiang", "宿迁": "suqian", "徐州": "xuzhou", "盐城": "yancheng"},
-  "town": {
+  "cityList": {"南京市": "nanjing", "无锡市": "wuxi", "昆山市": "kunshan", "苏州市": "suzhou", "常州市": "changzhou", "镇江市": "zhenjiang", "宿迁市": "suqian", "徐州市": "xuzhou", "盐城市": "yancheng"},
+  "city": {
     "nanjing": [
       {
         "doctor": "黄煌教授",
