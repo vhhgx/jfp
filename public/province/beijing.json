@@ -1,0 +1,163 @@
+{
+	"description": "北京市",
+	"townlist": {"东城区": "dongcheng", "朝阳区": "chaoyang", "海淀区": "haidian", "西城区": "xicheng", "丰台区": "fengtai"},
+	"town": {
+		"dongcheng": [
+			{
+				"doctor": "冯世伦教授",
+				"title": "主任中医师",
+				"hospital": "医保全新大药房",
+				"address": "安定门大街96号",
+				"time": "周一上午",
+				"orderPhone": "010-64042149",
+				"orderTime": "",
+				"orderType": "",
+				"remark": "2号地铁安定门站B口出向南走约200米路东"
+			},{
+				"doctor": "史欣德研究员",
+				"title": "主任中医师",
+				"sitting": [
+					{
+						"hospital": "中国中医科学院门诊部",
+						"address": "东城区北新仓胡同18号",
+						"time": "周三上午",
+						"orderPhone": "010-64049288"
+					},{
+						"hospital": "仁医堂中医馆",
+						"address": "东城区东中街40号",
+						"time": "周五全天",
+						"orderPhone": "010-64161662"
+					}
+				]
+			},{
+				"doctor": "张海滨",
+				"title": "副主任医师",
+				"hospital": "北京中医医院",
+				"address": "东城区美术馆后街23号",
+				"time": "周五上午",
+				"orderType": "现场挂号、不预约"
+			},{
+				"doctor": "刘宝利",
+				"title": "主任医师",
+				"hospital": "北京中医医院",
+				"address": "东城区美术馆后街23号",
+				"time": "周一下午（明医馆）、周二上午",
+				"orderType": "现场挂号" 
+			},{
+				"doctor": "辛海副教授",
+				"title": "副主任中医师",
+				"hospital": "北京中医医院门诊二楼杂病3诊室",
+				"address": "东城区美术馆后街23号",
+				"time": "周二下午、周四下午",
+				"orderType": "现场挂号，可加号"
+			}
+		],
+		"chaoyang": [
+			{
+				"doctor": "冯世伦教授",
+				"title": "主任中医师",
+				"sitting": [
+					{
+						"hospital": "树德堂国医馆",
+						"address": "呼家楼宾馆院内",
+						"time": "周二上午",
+						"orderPhone": "010-65007509",
+						"orderTime": "",
+						"orderType": "",
+						"remark": "地铁10号线呼家楼站D出口右手边"
+					},{
+						"hospital": "中日友好医院（中医经方门诊）",
+						"address": "B栋门诊楼4楼特需门诊2诊室",
+						"time": "周三上午",
+						"orderPhone": "010-84205348",
+						"orderTime": "",
+						"orderType": "",
+						"remark": ""
+					},{
+						"hospital": "汉典中医医院",
+						"address": "北京市朝阳区石佛营东里133号4号楼",
+						"time": "周五上午",
+						"orderPhone": "010-56242047",
+						"orderTime": "",
+						"orderType": "",
+						"remark": ""
+					},{
+						"hospital": "北京医珍堂",
+						"address": "北京市朝阳区望京西路甲50号卷石天地大厦2层",
+						"time": "周六上午",
+						"orderPhone": "010-58211666 ",
+						"orderTime": "",
+						"orderType": "",
+						"remark": ""
+					}
+				]
+			},{
+				"doctor": "刘国轩",
+				"title": "副主任医师",
+				"hospital": "北京彭城堂中医诊所",
+				"address": "北京市朝阳区大郊亭中街华腾国际甲2-26彭城堂",
+				"time": "周一、周三、周五全天",
+				"orderType": "预约挂号",
+				"orderPhone": "13071159879"
+			},{
+				"doctor": "马新童",
+				"title": "副主任医师",
+				"hospital": "博爱堂中医医院（京广中心馆）",
+				"time": "周一、周四的11:00-16:00",
+				"address": "朝阳区呼家楼，向军南里甲3号，在东三环京广中心瑰丽酒店南门西侧",
+				"orderPhone": "18910880951"
+			}
+		],
+		"haidian": [
+			{
+				"doctor": "史欣德研究员",
+				"title": "主任中医师",
+				"hospital": "安仁堂中医馆",
+				"address": "北京市海淀区海淀南路34号艾瑟顿商业广场一层",
+				"time": "周三下午",
+				"orderPhone": "010-82653318"
+			},{
+				"doctor": "杨奇云",
+				"title": "执业中医师",
+				"hospital": "北京三艾堂国医馆",
+				"address": "海淀区中关村南大街52号中外交流大厦一层",
+				"time": "周三、周五之外的全天",
+				"orderPhone": "010-62118666"
+			},{
+				"doctor": "龙秀锦",
+				"title": "中医师",
+				"hospital": "泰仁堂诊所",
+				"address": "北京东燕郊学院路1227号",
+				"time": "周一周四与周日的全天",
+				"orderPhone": "18612237242"
+			}
+		],
+		"xicheng": [
+			{
+				"doctor": "何庆勇教授",
+				"title": "主任医师",
+				"hospital": "中国中医科学院广安门医院",
+				"address": "西城区北线阁5号新门诊二楼心血管科",
+				"time": "周一上午、周二下午、周五上午",
+				"orderType": "现场挂号"
+			},{
+				"doctor": "马新童",
+				"title": "副主任医师",
+				"hospital": "葆德堂中医诊所",
+				"time": "周三8:30-12:00、13:00-16:30",
+				"address": "西城区西二环官园桥（梅兰芳大剧院）向东200米路南天桥下",
+				"orderPhone": "15321768598"
+			}
+		],
+		"fengtai": [
+			{
+				"doctor": "马新童",
+				"title": "副主任医师",
+				"hospital": "博爱堂中医医院(南站馆)医保定点单位",
+				"time": "周二、周五的8:30-13:30",
+				"address": "丰台区南二环开阳桥西南角瀚海花园大厦一层",
+				"orderPhone": "18910880951"
+			}
+		]
+	}
+}

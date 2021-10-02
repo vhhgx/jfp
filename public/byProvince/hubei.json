@@ -1,0 +1,62 @@
+{
+	"description": "地区",
+	"cityList": {"": "", "": "", "": "", "": ""},
+	"province": [
+		{
+			"doctor": 刘为立 ,
+			"title": "副主任中医师",
+			"hospital": 刘为立中医诊所 ,
+			"address": 武汉市青山区厂前青王路（站前路）铁铺岭（星星幼儿园附近）,
+			"time": 周一、三、五、日上下午,
+			"orderPhone": 13797063991,
+		},{
+			"doctor": 吕东红 执业医师,
+			"hospital": 武汉雨之堂中医门诊部,
+			"address": 江岸区解放大道1918号,
+			"time": 周一、三、四、六上午,
+			"orderType": 凭身份证现场挂号,
+		},{
+			"doctor": 库保庆、,
+			"title": "主仼中医师",
+			"hospital": 襄阳市中心医院中医科南区,
+			"address": 襄城区的门诊西二楼专家门诊,
+			"time": 周一、三、五上下午,
+			"orderType": 现场挂号 微信、微脉、健康之路预约,
+		},{
+			"doctor": 樊正阳 ,
+			"title": "主治中医师",
+			"hospital": 樊正阳中医诊所,
+			"address": 湖北省襄阳市许岗路8号,
+			"time": 每日上午,
+			"orderType": 现场挂号,
+		},{
+			"doctor": 李宝华 ,
+			"title": "副主任中医师",
+			"hospital": 襄阳市中医医院国医堂,
+			"address": 湖北襄阳市长征路24号,
+			"time": 周二上午 周三、五下午,
+			预约挂号: 支付宝生活号市中医院预约,
+		},{
+			"doctor": 周刚 ,
+			"title": "主仼中医师",
+			"hospital": 宜昌市中心人民医院门诊四楼中医科,
+			"address": 宜昌市夷陵路183号,
+			"time": 周二下午 周六全天,
+			"orderType": "orderPhone": 6496666,
+		},{
+			"doctor": 刘毅 ",
+			"title": "执业中医师",,
+			"hospital": 老河口市刘毅诊所（紫洋中医馆）,
+			"address": 老河口市北京路新华书店正对面,
+			"time": 周一~周五全天,
+			"orderType": 现场挂号,
+			"orderPhone": 13797625196
+		},{
+			"doctor": 曹本贵 中医师,
+			"hospital": 十堰市中医院东风分院老年病科,
+			"address": 张湾区河南路10号,
+			"time": 周一~五全天 周六上午,
+			"orderType": 现场挂号 ,
+		}
+	]
+}

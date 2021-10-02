@@ -1,0 +1,376 @@
+{
+  "description": "江苏省",
+  "townlist": {"南京": "nanjing", "无锡": "wuxi", "昆山": "kunshan", "苏州": "suzhou", "常州": "changzhou", "镇江": "zhenjiang", "宿迁": "suqian", "徐州": "xuzhou", "盐城": "yancheng"},
+  "town": {
+    "nanjing": [
+      {
+        "doctor": "黄煌教授",
+				"title": "主任中医师",
+				"sitting": [
+					{
+						"hospital": "江苏省中医院名医堂",
+						"address": "",
+						"time": "周一上午",
+						"orderPhone": "025-12580",
+						"orderTime": "",
+						"orderType": "电话预约",
+						"remark": ""
+					},{
+						"hospital": "南京中医药大学汉中门国医堂门诊部3楼302专家诊室",
+						"address": "",
+						"time": "周二全天",
+						"orderPhone": "025-58999222",
+						"orderTime": "周一、周二、周三、周五上午 09:00-11:00",
+						"orderType": "电话预约",
+						"remark": ""
+					},{
+						"hospital": "南京传统中医门诊部黄煌经方医学工作室",
+						"address": "南京市鼓楼区凤凰西街208号",
+						"time": "周三上午",
+						"orderPhone": "025-86538120",
+						"orderTime": "周日8:30开始",
+						"orderType": "电话预约",
+						"remark": "需要提前三日预约，即周日"
+					}
+				]
+      },{
+        "doctor": "南京黄煌经方",
+				"title": "医学工作室",
+				"hospital": "南京传统中医门诊部黄煌经方医学工作室",
+				"address": "南京市鼓楼区凤凰西街208号",
+				"time": "全周",
+				"orderPhone": "025-86538120",
+				"orderTime": "",
+				"orderType": "现场挂号、电话预约",
+				"remark": "由黄煌教授南京八名弟子坐诊。咨询电话：025-86538910"
+      },{
+				"doctor": "梁佑民博士",
+				"title": "执业中医师",
+				"hospital": "北京同仁堂省中店",
+				"address": "南京市莫愁路446号",
+				"time": "周三下午、周四上午、周日上午",
+				"orderPhone": "025-84752655",
+				"orderTime": "",
+				"orderType": "",
+				"remark": ""
+			},{
+				"doctor": "张玲玲",
+				"title": "主治中医师",
+				"hospital": "南中医国医堂门诊部",
+				"address": "汉中路282号南京中医药大学老校区（汉中门站）",
+				"time": "周一下午",
+				"orderPhone": "13505184289",
+				"orderTime": "",
+				"orderType": "现场挂号",
+				"remark": ""
+			},{
+				"doctor": "李永",
+				"title": "副主任中医师",
+				"hospital": "南中医国医堂门诊部",
+				"address": "汉中路282号南京中医药大学老校区（汉中门站）",
+				"time": "周二上午、周四下午",
+				"orderPhone": "4000360282",
+				"orderTime": "",
+				"orderType": "",
+				"remark": ""
+			},{
+				"doctor": "周红光",
+				"title": "副主任中医师",
+				"hospital": "肿瘤内科第五诊室",
+				"address": "汉中路155号省中医院",
+				"time": "周一上午、周三下午",
+				"orderPhone": "",
+				"orderTime": "",
+				"orderType": "现场挂号、网上预约",
+				"remark": ""
+			}
+    ],
+    "wuxi": [
+			{
+				"doctor": "苏强",
+				"title": "副主任中医师",
+				"sitting": [
+					{
+						"hospital": "无锡三院中医科",
+						"address": "兴源北路585号",
+						"time": "周一全天",
+						"orderPhone": "0510-82606510",
+						"orderTime": "",
+						"orderType": "",
+						"remark": ""
+					},
+					{
+						"hospital": "嘉仕恒信医院中医科",
+						"address": "",
+						"time": "周六上午",
+						"orderPhone": "15852770021",
+						"orderTime": "",
+						"orderType": "",
+						"remark": ""
+					}
+				]
+			},{
+				"doctor": "毛科明",
+				"title": "副主任中医师",
+				"sitting": [
+					{
+						"hospital": "锡山区中医院东港院区",
+						"address": "",
+						"time": "周一、周四",
+						"orderPhone": "",
+						"orderTime": "",
+						"orderType": "现场挂号",
+						"remark": ""
+					},{
+						"hospital": "锡山区中医院锡北院区",
+						"address": "锡北镇西新路1号",
+						"time": "周二、周五",
+						"orderPhone": "",
+						"orderTime": "",
+						"orderType": "现场挂号",
+						"remark": ""
+					},{
+						"hospital": "锡山区东港社区卫生服务中心",
+						"address": "东港镇东湖塘阳光南路",
+						"time": "周三",
+						"orderPhone": "",
+						"orderTime": "",
+						"orderType": "现场挂号",
+						"remark": ""
+					}
+				]
+			},{
+				"doctor": "朱红俊",
+				"title": "主任中医师",
+				"hospital": "无锡市中医医院",
+				"address": "滨湖区中南西路8号",
+				"orderType": "现场挂号、院网站预约"
+			},{
+				"doctor": "毕礼明",
+				"title": "副主任中医师",
+				"hospital": "无锡市中医院肾内科门诊",
+				"address": "滨湖区中南西路8号门诊2楼8诊室",
+				"time": "周四下午",
+				"orderType": "现场挂号、院网站预约"
+			},{
+				"doctor": "高广飞",
+				"title": "副主任中医师",
+				"hospital": "无锡市中医医院",
+				"address": "滨湖区中南西路8号门诊四楼专家门诊",
+				"time": "周四下午",
+				"orderType": "现场挂号、院网站预约" 
+			},{
+				"doctor": "陆西宛",
+				"title": "副主任中医师",
+				"hospital": "无锡市中医医院",
+				"address": "滨湖区中南西路8号",
+				"time": "周一、周二上午普通门诊，周二下午专家门诊",
+				"orderType": "普通门诊：现场挂号、专家门诊：预约及现场挂号均可"
+			},{
+				"doctor": "蔡余伟",
+				"title": "中西医结合执业医师",
+				"hospital": "无锡益康医院中医科",
+				"address": "通盛路孙巷108号",
+				"time": "周一、三、五、六全天",
+				"orderType": "现场挂号"
+			},{
+				"doctor": "薛蓓云",
+				"title": "主任中医师",
+				"hospital": "江阴市人民医院中医内科专家门诊",
+				"address": "周一、周三上午，周四、周五全天",
+				"time": "",
+				"orderPhone": "",
+				"orderTime": "",
+				"orderType": "",
+				"remark": ""
+			},{
+				"doctor": "龚雪梅",
+				"title": "主治中医师",
+				"sitting": [{
+					"hospital": "峭岐医院中医专家门诊",
+					"address": "江阴市徐霞客镇峭岐博爱路126号",
+					"time": "周四7:30-14:00",
+					"orderPhone": "",
+					"orderTime": "",
+					"orderType": "",
+					"remark": ""
+				},{
+					"hospital": "江阴市李小荣经方诊疗团",
+					"address": "中山南路与南街交汇处的留春堂中医馆",
+					"time": "周五8:00-14:00",
+					"orderPhone": "",
+					"orderTime": "",
+					"orderType": "现场挂号、微信预约",
+					"remark": "微信公众号“李小荣经方诊疗团”预约"
+				}]
+			},{
+				"doctor": "强勇",
+				"title": "主治中医师",
+				"hospital": "江阴市北国医院名医堂",
+				"address": "江阴市顾山镇北国街道",
+				"time": "周一、周三、周五、周日上午",
+				"orderPhone": "",
+				"orderTime": "",
+				"orderType": "现场挂号",
+				"remark": ""
+			},{
+				"doctor": "陈建芳",
+				"title": "主仼中医师",
+				"hospital": "江苏省宜兴市人民医院",
+				"address": "宜城街道通贞观路75号",
+				"time": "周二-周六",
+				"orderPhone": "0510-80707120",
+				"orderTime": "",
+				"orderType": "",
+				"remark": ""
+			}
+		],
+    "kunshan": [
+			{
+				"doctor": "王彪",
+				"title": "资深经方中医师",
+				"hospital": "昆山同德堂",
+				"address": "正阳桥人民路10号同德堂总店三楼",
+				"time": "周二、三、五、六、日的8:00-16:00"
+			},{
+				"doctor": "张学",
+				"title": "主治中医师",
+				"hospital": "昆山大道中医门诊部",
+				"address": "昆山市庆丰东路577号",
+				"time": "周3全天与周4下午之外的工作时间",
+				"orderType": "现场挂号"
+			}
+		],
+    "suzhou": [
+			{
+        "doctor": "于吉超",
+        "title": "副主任中医师",
+        "hospital": "苏州市相城区中医医院",
+        "address": "相城区望亭镇问渡路376号（公交85路、851路）",
+        "time": "周一、三、六的上下午",
+        "orderPhone": "现场挂号、不预约"
+			},{
+        "doctor": "吴冬红",
+        "title": "主任中医师",
+        "hospital": "苏州市相城区中医医院",
+        "address": "相城区望亭镇问渡路376号（公交85路、851路） 三楼门诊第1诊室",
+        "time": "周一、周四全天",
+        "orderType": "医院一楼大厅现场挂号"
+      },{
+        "doctor": "张君博",
+        "title": "中医师",
+        "hospital": "苏州市十全诊所",
+        "address": "苏州市十全街946号",
+        "time": "周二、四、六、日上午",
+        "orderType": "道无忧公众号预约"
+      },{
+				"doctor": "潘永年",
+        "title": "主任中医师",
+        "hospital": "苏州市平望镇吴江区中医院（吴江区第二人民医院）",
+        "address": "医院中医皮外科",
+        "time": "周五上午",
+        "orderType": "预约（医院公告www.wjeryuan.com）"
+			},{
+				"doctor": "龚雪梅",
+				"title": "主治中医师",
+				"hospital": "张家港市金港镇国仁堂医药（可医保）",
+				"address": "金港中央广场1层（锦隆大厦-星巴克咖啡对面）国仁堂医药",
+				"time": "周一下午，周三、周日上午",
+				"orderType": "现场挂号"
+			}
+		],
+    "changzhou": [
+			{
+				"doctor": "李淑萍",
+        "title": "主任中医师",
+        "hospital": "",
+        "address": "常州火车站乘公交到文化宫下车即可",
+        "time": "周一至周五上午",
+        "orderType": "现场挂号、网上预约"
+			},{
+				"doctor": "周顺娟",
+        "title": "产科主任医师",
+        "hospital": "常州市中医医院妇科门诊一楼产科门诊",
+        "address": "同上",
+        "time": "周四下午、周五上午;",
+        "orderType": "网上预约、现场挂号"
+			},{
+				"doctor": "梅建锋",
+        "title": "主治中医师",
+        "hospital": "常州市武进中医医院",
+        "address": "武进区湖塘镇人民中路699号门诊三楼肾病科门诊",
+        "time": "周四全天",
+        "orderType": "现场挂号"
+			},{
+				"doctor": "张淮兴",
+				"title": "执业中医师",
+				"hospital": "常州市百杏堂名医馆",
+				"address": "武进区湖塘人民中路626号",
+				"time": "周五、周日",
+				"orderType": "现场挂号"
+			}
+		],
+    "zhenjiang": [
+			{
+				"doctor": "龙秀锦",
+        "title": "中医师",
+        "hospital": "镇江市上医堂中医馆",
+        "address": "镇江市梦溪路72号",
+        "time": "每月第二、四周的周六",
+        "orderType": "提前",
+        "orderPhone": "0511-88822227"
+			},{
+				"doctor": "眭冬蕾",
+        "title": "主治中医师",
+        "hospital": "丹阳市第三人民医院门诊四楼中医科",
+        "address": "丹阳市南二环路899号",
+        "time": "周一-周五全天;",
+        "orderPhone": "现场挂号，不预约"
+			}
+		],
+    "suqian": [
+			{
+				"doctor": "王昱霖（原名王林）",
+        "title": "副主任中医师",
+        "hospital": "宿迁市玄壶中医诊所",
+        "time": "周一-周六 8:30~9:30",
+        "address": "微山湖路88—12号",
+        "orderPhone": "现场挂号、不预约"
+			},{
+				"doctor":"王颢",
+        "title": "主治中医师",
+        "hospital": "沭阳县王颢诊所",
+        "address": "宿迁沭阳县沭城街道临安东路101号",
+        "time": "周一至周六全天",
+        "orderType": "现场挂号"
+			}
+		],
+    "xuzhou": [
+			{
+				"doctor": "杨杰",
+        "title": "主任中医师",
+        "hospital": "徐州市铜山中医院",
+        "address": "铜山新区黄河西路",
+        "time": "周一、二、四全天",
+        "orderPhone": "现场挂号、不预约"
+			}
+		],
+    "yancheng": [
+			{
+				"doctor": "崔峰",
+        "title": "执业中医师",
+        "hospital": "盐城市阜宁县芦蒲镇崔八味中医馆",
+        "time": "每月的15～20日",
+        "orderType": "电话预约", 
+        "orderPhone": "13401720749"
+			},{
+				"doctor": "钱慧明",
+        "title": "副主任中医师",
+        "hospital": "盐城市大丰中医院经方门诊",
+        "address": "盐城大丰区人民南路172号",
+        "time": "周一~五全天、周六上午",
+        "orderType": "现场挂号"
+			}
+		]
+  }
+}

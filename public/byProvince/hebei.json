@@ -1,0 +1,47 @@
+{
+	"description": "地区",
+	"cityList": {"": "", "": "", "": "", "": ""},
+	"province": [
+		{
+			"doctor": 李刚博士 ",
+			"title": "执业中医师",,
+			"hospital": 张家口市明德南社区卫生服务中心,
+			"address": 桥西区西沙河大街永丰后街付2号（公交西沙河站）,
+			"time": 周六上午,
+			"orderType": 现场挂号 "orderPhone":: 0313-8089181,
+		},{
+			"doctor": 孙超 中医师 ,
+			"hospital": 保定市徐水县留村乡留村第二卫生室,
+			门诊地点: 徐水县留村乡留村,
+			"time": 周1周5上午,
+			"orderType": 现场挂号 "orderPhone":: 13784424133,
+		},{
+			"doctor": 卢红伟 ",
+			"title": "执业中医师",,
+			"hospital": 保定市涞水县义安镇北白堡村卫生所,
+			"address": 涞水县义安镇北白堡村,
+			"time": 每天上午,
+			"orderType": 现场挂号 "orderPhone":: 13400434090,
+		},{
+			"doctor": 张会辰 ,
+			"title": "主治中医师",
+			"hospital": 石家庄市鹿泉区白鹿泉乡卫生院 ,
+			"address": 白鹿泉乡政府西邻,
+			"time": 周四上午、周日上午,
+			"orderType": 现场挂号、微信预约buweiliangxiang,
+		},{
+			"doctor": 吕嘉荣 ,
+			"title": "主治中医师",
+			"hospital": 石家庄中医院脑病1科,
+			"address": 桥西区中山路233号,
+			"time": 周一周六的上午,
+			"orderType": 现场挂号 "orderPhone":: 15533613296,
+		},{
+			"doctor": 孙雪峰 中西医结合医师,
+			"hospital": 高碑店市延煌诊所,
+			"address": 高碑店市兴华南街99号,
+			"time": 周一至周日全天,
+			"orderType": 现场挂号 ,
+		}
+	]
+}

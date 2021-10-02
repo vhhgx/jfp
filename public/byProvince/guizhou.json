@@ -1,0 +1,14 @@
+{
+	"description": "地区",
+	"cityList": {"": "", "": "", "": "", "": ""},
+	"province": [
+		{
+			"doctor": 胡奇 ,
+			"title": "主治中医师",
+			"hospital": 贵州大方胡氏经方草堂,
+			"address": 贵州省毕节市大方县南门转盘美诚水果超市旁黄家小巷进百米 ,
+			"time": 每天坐诊 ,
+			"orderType": 现场挂号,
+		}
+	]
+}

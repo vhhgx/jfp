@@ -1,0 +1,52 @@
+{
+	"description": "地区",
+	"cityList": {"": "", "": "", "": "", "": ""},
+	"province": [
+		{
+			"doctor": 刘英锋教授 ,
+			"title": "主仼中医师",
+			"hospital": 江西省中医院,
+			"address": 八一大道445号 门诊部二楼北侧杂病专科,
+			"time": 周一下午、周四上午,
+		},{
+			"doctor": 任玉玺、中西医结合执业医师,
+			"hospital": 南昌市博爱名中医馆,
+			"address": 广场北路和福州路交叉口 省中医院八一大道总院新大楼南门马路对面,
+			"time": 周六8: 30-11: 30,
+			"orderType": 现场挂号、"orderPhone"86262091,
+		},{
+			"doctor": 孟萍 ,
+			"title": "副主任中医师",
+			"hospital": 江西中医药高等专科学校附属医院名中医工作室,
+			"address": 抚州市赣东大道1111号,
+			"time": 周一、二、四、五上午,
+			"orderType": 现场挂号、不预约,
+		},{
+			"doctor": 丁友桂 ",
+			"title": "执业中医师", ,
+			"hospital": 宜黄县丁友桂中医门诊,
+			"time": 周一周日全天,
+			"orderPhone":: 15679428809,
+		},{
+			"doctor": 邹献荣 ",
+			"title": "执业中医师", ,
+			"hospital": 宜黄梨溪镇中心卫生院,
+			"time": 周一周5上午,
+			"orderType": 现场挂号 "orderPhone":13133732827,
+		},{
+			"doctor": 陈贱平 ,
+			"title": "主仼中医师",
+			"hospital": 樟树市中医医院国医堂 ,
+			"address": 南桥街二小斜对面,
+			"time": 周三、五的上午  ,
+			"orderType": 现场挂号、不预约,
+		},{
+			"doctor": 吴克洲 ,
+			"title": "副主任中医师",
+			"hospital": 玉山县临湖中心卫生院,
+			"address": 临湖镇新街86号,
+			"time": 周一周六的上下午,
+			"orderType": 现场挂号 预约13576303398 ,
+		}
+	]
+}
