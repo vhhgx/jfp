@@ -1,6 +1,6 @@
 {
 	"description": "山西省",
-	"cityList": {"运城": "yuncheng", "太原": "taiyuan"},
+	"cityList": {"运城市": "yuncheng", "太原市": "taiyuan"},
 	"city": {
 		"yuncheng": [{
 			"doctor": "李祥林",

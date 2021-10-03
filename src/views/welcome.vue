@@ -1,9 +1,9 @@
 <template>
 	<div class="page-height flex column main-between">
 		<div id="main">
-			<div id="head" class="flex column main-between" style="height: 140px; background-color: #0050b3; margin: -16px -16px 0 -16px; padding: 24px 16px;">
+			<div id="head" class="flex column main-between" style="height: 124px; background-color: #0050b3; margin: -16px -16px 0 -16px; padding: 24px 16px;">
 				<div>
-					<div style="font-size: 48px; color: #ffffff;" class="xqn">经方大夫</div>
+					<div style="font-size: 40px; color: #ffffff;" class="xqn">经方大夫</div>
 					<div style="color: #ffffff; margin-top: 8px;">快捷查询周边经方派医师</div>
 				</div>
 				
@@ -12,7 +12,7 @@
 					<span style="margin-left: 8px;">{{province}} {{city}}</span>
 				</div>
 			</div>
-			<div id="list" style="margin-top: 16px; overflow-y: auto; height: calc(100vh - 204px - 40px)">
+			<div id="list" style="margin-top: 16px; overflow-y: auto; height: calc(100vh - 204px - 40px + 16px)">
 				<div v-for="(item, index) in hospital" :key="index" class="list">
 					<DoctorList :list="item" :province="provPy" :city="cityPy"></DoctorList>
 				</div>
@@ -82,7 +82,7 @@ export default {
 
 		getHospital(provPy, city) {
 			this.$vget(provPy).then(res => {
-				console.log('首页查询该省', res)
+				// console.log('首页查询该省', res)
 				let cityPy = res.cityList[city]
 				this.cityPy = res.cityList[city]
 				this.hospital = res.city[cityPy]

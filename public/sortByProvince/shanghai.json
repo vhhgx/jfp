@@ -1,6 +1,6 @@
 {
 	"description": "上海市",
-	"cityList": {"上海": "shanghai"},
+	"cityList": {"上海市": "shanghai"},
 	"city": {
 		"shanghai": [
 			{

@@ -1,6 +1,6 @@
 {
 	"description": "安徽省",
-	"cityList": {"芜湖市": "wuhu", "宣城市": "xuancheng", "合肥": "hefei"},
+	"cityList": {"芜湖市": "wuhu", "宣城市": "xuancheng", "合肥市": "hefei"},
 	"city": {
 		"wuhu": [{
 			"doctor": "江厚万",

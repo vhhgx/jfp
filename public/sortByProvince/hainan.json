@@ -1,8 +1,8 @@
 {
 	"description": "海南省",
-	"cityList": {"海南": "hainan"},
+	"cityList": {"海口市": "haikou"},
 	"city": {
-		"hainan": [{
+		"haikou": [{
 			"doctor": "吕志杰教授",
 			"hospital": "海南省中医院名医工作室",
 			"time": "周二、周三的上午",

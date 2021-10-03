@@ -2,7 +2,7 @@
 	<div class="page-height flex column main-between">
 		<div id="head" class="flex column" style="height: 124px; background-color: #0050b3; margin: -16px -16px 0 -16px; padding: 24px 16px;">
 
-			<div class="flex cross-center" style="color: #ffffff; font-size: 20px;">
+			<div class="flex cross-center" style="color: #ffffff;">
 				<i class="iconfont" style="font-size: 18px" @click="back">&#xe748;</i>
 				<span style="margin-left: 12px;" >医师详情</span>
 			</div>
@@ -37,7 +37,7 @@ export default {
 		}
 	},
 	created() {
-		console.log('详情页', this.$route.params.doctor, this.$route.params.city, this.$route.params.province)
+		// console.log('详情页', this.$route.params.doctor, this.$route.params.city, this.$route.params.province)
 		this.doctor = this.$route.params.doctor
 		this.city = this.$route.params.city
 		this.getAllHospital(this.$route.params.province)
@@ -49,10 +49,10 @@ export default {
 	methods: {
 		getAllHospital(province) {
 			this.$vget(province).then((res)=>{
-				console.log('详情页获取数据', res)
+				// console.log('详情页获取数据', res)
 				// 获取该地的医院数组
 				let allHospital = res.city[this.city]
-				console.log('ah', allHospital)
+				// console.log('ah', allHospital)
 				// 获取该医生的数据
 				this.doctorDetail = allHospital.find((element)=> element.doctor == this.doctor)
 			})
