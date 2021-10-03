@@ -1,6 +1,6 @@
 {
 	"description": "山东省",
-	"cityList": {"烟台": "yantai", "青岛": "qingdao", "泰安": "taian", "莱芜": "laiwu", "济南": "jinan", "聊城": "liaocheng", "济宁": "jining"},
+	"cityList": {"烟台市": "yantai", "青岛市": "qingdao", "泰安市": "taian", "莱芜市": "laiwu", "济南市": "jinan", "聊城市": "liaocheng", "济宁市": "jining"},
 	"city": {
 		"yantai": [{
 				"doctor": "曲丽霞 ",

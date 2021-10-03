@@ -3,7 +3,7 @@ let config = {
 	"amapKey": "e578fe7778da38ca76a199496a7e480a",
 	"provinceList": {
 		"河北省": "hebei",
-		"山西省": "shanxi",
+		"山西省": "shaanxi",
 		"辽宁省": "liaoning",
 		"吉林省": "jilin",
 		"江苏省": "jiangsu",
@@ -20,7 +20,7 @@ let config = {
 		"四川省": "sichuan",
 		"贵州省": "guizhou",
 		"云南省": "yunnan",
-		"陕西省": "sanxi",
+		"陕西省": "shanxi",
 		"内蒙古自治区": "neimenggu",
 		"广西省": "guangxi",
 		"新疆维吾尔自治区": "xinjiang",
