@@ -1,6 +1,6 @@
 {
-	"description": "地区",
-	"cityList": {"": "", "": "", "": "", "": ""},
+	"description": "贵州省",
+	"cityList": {"贵州市": "guizhou"},
 	"city": {
 		"guizhou": [{
 			"doctor": "胡奇",

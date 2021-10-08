@@ -1,6 +1,6 @@
 {
 	"description": "地区",
-	"cityList": {"": "", "": "", "": "", "": ""},
+	"cityList": {"张家口市": "zhangjiakou", "石家庄市": "shijiazhuang", "保定市": "baoding", "高碑店市": "gaobeidian"},
 	"city": {
 		"zhangjiakou": [{
 			"doctor": "李刚博士",
@@ -45,7 +45,8 @@
 			"orderPhone": "13400434090"
 		}],
 		"gaobeidian": [{
-			"doctor": "孙雪峰，中西医结合医师",
+			"doctor": "孙雪峰",
+			"title": "中西医结合医师",
 			"hospital": "高碑店市延煌诊所",
 			"address": "高碑店市兴华南街99号",
 			"time": "周一至周日全天",
