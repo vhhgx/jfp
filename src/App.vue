@@ -5,17 +5,7 @@
 </template>
 
 <script>
-
-export default {
-  data() {
-		return { }
-	},
-  created() {
-  },
-	mounted() { },
-	components: { },
-	methods: { }
-}
+export default {}
 </script>
 
 <style>
