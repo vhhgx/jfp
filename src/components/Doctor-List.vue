@@ -1,5 +1,6 @@
 <template>
-	<div class="doctorCard flex column" @click="toDetail(list.doctor)">
+<!-- @click="toDetail(list.doctor)" -->
+	<div class="doctorCard flex column">
 		<div class="flex main-between cross-center">
 			<div style="font-size: 18px; font-weight: 700; color: #002766;">{{list.doctor}}</div>
 			<div style="color: #002766; font-size: 14px;">{{list.title}}</div>
@@ -18,11 +19,11 @@ export default {
 	},
 	methods: {
 		toDetail(doctor) {
-			// console.log('医生列表组件', doctor, this.$props.province, this.$props.city)
+			console.log('医生列表组件', doctor, this.$props.province, this.$props.city)
 			let props = this.$props
 			let city = props.city
 			let province = props.province
-			this.$router.push({name:'detail', params: { doctor, city, province}}) 
+			this.$router.push({name:'detail', params: { doctor, city, province }}) 
 		},
 	}
 }
@@ -31,7 +32,7 @@ export default {
 <style>
 .doctorCard {
 	background-color: #F1FAFF;
-	margin-bottom: 12px;
+	/* margin-bottom: 12px; */
 	padding: 12px;
 	border-radius: 6px;
 }

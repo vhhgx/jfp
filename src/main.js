@@ -8,7 +8,7 @@ import '#/style/main.css'
 
 import { get } from './utils/request'
 
-Vue.prototype.$vget = get
+Vue.prototype.$get = get
 
 Vue.config.productionTip = false
 

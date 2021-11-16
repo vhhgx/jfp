@@ -5,30 +5,35 @@
 </template>
 
 <script>
-export default {}
+import DoctorList from '~/Doctor-List'
+import { config } from '#/utils/info.config.js'
+import axios from 'axios'
+
+export default {
+	data() {
+		return { }
+	},
+	created() {
+		this.getLocalCity()
+	},
+	components: { 
+		DoctorList
+	},
+	methods: {
+
+		getLocalCity() {
+			axios.get(config.localApi, {params: {key: config.amapKey}}).then(res => {
+				let prov = config.provinceList[res.data.province]
+
+				localStorage.setItem('prov', prov)
+				localStorage.setItem('prov_cn', res.data.province)
+				localStorage.setItem('city_cn', res.data.city)
+			})
+		},
+	}
+}
 </script>
 
 <style>
-/* body{ display: 0;} */
 #app { margin: 16px }
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-} */
 </style>

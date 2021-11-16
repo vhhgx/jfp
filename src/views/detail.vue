@@ -7,13 +7,13 @@
 				<span style="margin-left: 12px;" >医师详情</span>
 			</div>
 
-			<span style="font-size: 32px; color: #ffffff; margin-top: 20px;" class="xqn">{{doctorDetail.doctor}}</span>
+			<span style="font-size: 32px; color: #ffffff; margin-top: 20px;">{{doctorDetail.doctor}}</span>
 			<span style="margin-top: 12px; color: #ffffff;">{{doctorDetail.title}}</span>
 		</div>
 
 		<div style="margin-top: 16px; overflow-y: auto; height: calc( 100vh - 26px - 178px)">
 			<div v-if="doctorDetail.sitting !== undefined">
-				<div v-for="(item, index) in doctorDetail.sitting" style="margin-bottom: 16px;" class="list">
+				<div v-for="(item, index) in doctorDetail.sitting" class="list">
 					<InfoCard :info="item"></InfoCard>
 				</div>
 			</div>
@@ -31,33 +31,25 @@ import InfoCard from '~/Info-Card'
 export default {
 	data() {
 		return {
-			doctor: '',
-			city: '',
 			doctorDetail: {}
 		}
 	},
 	created() {
-		// console.log('详情页', this.$route.params.doctor, this.$route.params.city, this.$route.params.province)
-		this.doctor = this.$route.params.doctor
-		this.city = this.$route.params.city
-		this.getAllHospital(this.$route.params.province)
+		this.getInfo()
 	},
 	mounted() { },
 	components: {
 		InfoCard
 	},
 	methods: {
-		getAllHospital(province) {
-			this.$vget(province).then((res)=>{
-				// console.log('详情页获取数据', res)
-				// 获取该地的医院数组
-				let allHospital = res.city[this.city]
-				// console.log('ah', allHospital)
-				// 获取该医生的数据
-				this.doctorDetail = allHospital.find((element)=> element.doctor == this.doctor)
-			})
+		getInfo() {
+			let doctor = localStorage.getItem('doctor')
+			let doctors = JSON.parse( localStorage.getItem('doctors') )
+
+			this.doctorDetail = doctors.find( item => item.doctor == doctor)
 		},
 		back() {
+			localStorage.removeItem('doctor')
 			this.$router.go(-1)
 		}
 	}
@@ -65,5 +57,6 @@ export default {
 </script>
 
 <style>
+.list { margin-bottom: 16px; }
 .list:last-child {margin-bottom: 0px;}
 </style>
