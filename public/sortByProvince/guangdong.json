@@ -1,6 +1,6 @@
 {
 	"description": "地区",
-	"cityList": {"": "", "": "", "": "", "": ""},
+	"cityList": {"广州市": "guangzhou", "深圳市": "shenzhen", "珠海市": "zhuhai", "东莞市": "dongguan", "中山市": "zhongshan", "汕头市": "shantou", "清远市": "qingyuan"},
 	"city": {
 		"guangzhou": [{
 			"doctor": "黄仕沛教授",
@@ -73,7 +73,8 @@
 				"orderPhone": "4006267777"
 			}]
 		},{
-			"doctor": "周登威，住院医师",
+			"doctor": "周登威",
+			"title": "住院医师",
 			"hospital": "广州金沙洲宗素堂国医馆",
 			"address": "白云区栀子花街1号108铺",
 			"time": "周一、周四9:0017:00",
