@@ -65,5 +65,5 @@ export default {
 
 <style>
 .list { margin-bottom: 12px; }
-.list:last-child { padding-bottom: 0; }
+.list:last-child { margin-bottom: 0; }
 </style>

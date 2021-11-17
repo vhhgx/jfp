@@ -13,28 +13,16 @@
 <script>
 export default {
 	props: {
-		list: {type: Object, default: {}},
-		city: {type: String, default: ''},
-		province: {type: String, default: ''}
+		list: {type: Object, default: {}}
 	},
-	methods: {
-		toDetail(doctor) {
-			console.log('医生列表组件', doctor, this.$props.province, this.$props.city)
-			let props = this.$props
-			let city = props.city
-			let province = props.province
-			this.$router.push({name:'detail', params: { doctor, city, province }}) 
-		},
-	}
+	methods: {}
 }
 </script>
 
 <style>
 .doctorCard {
 	background-color: #F1FAFF;
-	/* margin-bottom: 12px; */
 	padding: 12px;
 	border-radius: 6px;
 }
-/* .doctorCard:last-child { margin-bottom: 0; } */
 </style>
