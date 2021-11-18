@@ -1,5 +1,5 @@
 <template>
-	<div class="page-height flex column main-between">
+	<div class="page-height flex column main-between" style="">
 		<div id="head" class="flex column" style="height: 124px; background-color: #0050b3; margin: -16px -16px 0 -16px; padding: 24px 16px;">
 
 			<div class="flex cross-center" style="color: #ffffff;">

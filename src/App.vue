@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" :style="{height: `${windowHeight}px`}">
     <router-view/>
   </div>
 </template>
@@ -11,15 +11,19 @@ import axios from 'axios'
 
 export default {
 	data() {
-		return { }
+		return {
+			windowHeight: ''
+		}
 	},
 	created() {
+		this.getHeight()
 		this.getLocalCity()
 	},
 	components: { 
 		DoctorList
 	},
 	methods: {
+		getHeight() { this.windowHeight = window.innerHeight },
 
 		getLocalCity() {
 			axios.get(config.localApi, {params: {key: config.amapKey}}).then(res => {
@@ -35,5 +39,5 @@ export default {
 </script>
 
 <style>
-#app { margin: 16px }
+#app { }
 </style>
